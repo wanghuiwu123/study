@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class Main
 {
-    public static String tipInfo = "当前日期："; //日期提示语
+    public static String tipInfo = "当前日期="; //日期提示语
 
     public static void main(String[] args)
     {
