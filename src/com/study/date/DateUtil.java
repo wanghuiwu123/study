@@ -13,4 +13,14 @@ public class DateUtil
     {
         return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
     }
+
+    /**
+     * 获取指定格式的日期
+     * @param format
+     * @return
+     */
+    public static String getFormatTime(String format)
+    {
+        return new SimpleDateFormat(format).format(new Date());
+    }
 }
