@@ -11,8 +11,8 @@ public class Main
 {
     public static void main(String[] args)
     {
-        String format = "yyyy-MM-dd HH:mm:dd";
-        SimpleDateFormat sdf = new SimpleDateFormat(format);
+        String dateFormat = "yyyy-MM-dd HH:mm:dd";
+        SimpleDateFormat sdf = new SimpleDateFormat(dateFormat);
         System.out.println(sdf.format(new Date()));
     }
 }
