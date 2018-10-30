@@ -13,6 +13,6 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.println(DateUtil.getCurenntTime());
+        System.out.println(DateUtil.getCurenntTime()+"当前日期");
     }
 }
