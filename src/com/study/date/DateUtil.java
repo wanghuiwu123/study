@@ -9,6 +9,10 @@ import java.util.Date;
  */
 public class DateUtil
 {
+    /**
+     * 获取当前日期
+     * @return
+     */
     public static String getCurenntTime()
     {
         return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
