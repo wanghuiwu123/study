@@ -10,7 +10,7 @@ import java.util.Date;
 public class DateUtil
 {
     /**
-     * 获取当前日期（2018-09-09）
+     * 获取当前日期
      * @return
      */
     public static String getCurenntTime()
